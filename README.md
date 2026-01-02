@@ -1,8 +1,8 @@
-1. Why This Project Exists
+# Why This Project Exists
 
-Most companies do not struggle with AI capability.
+#### Most companies do not struggle with AI capability.
 
-They struggle with operational chaos:
+#### They struggle with operational chaos:
 
 - Vague requests
 
@@ -14,14 +14,14 @@ They struggle with operational chaos:
 
 - Cognitive overload
 
-I believe AI adoption fails not because models are weak, but because inputs are messy and decisions are unclear.
+**_I believe AI adoption fails not because models are weak, but because inputs are messy and decisions are unclear._**
 
-This project exists to solve that problem.
+**_This project exists to solve that problem._**
 
 
-2. The Problem Being Solved (Plain Language)
+## The Problem Being Solved (Plain Language)
 
-Teams receive work requests through:
+#### Teams receive work requests through:
 
 - Slack messages
 
@@ -31,7 +31,7 @@ Teams receive work requests through:
 
 - Verbal notes
 
-These requests are:
+#### These requests are:
 
 - Unstructured
 
@@ -41,7 +41,7 @@ These requests are:
 
 - Difficult to route correctly
 
-As a result:
+#### As a result:
 
 - Urgent work is missed
 
@@ -51,18 +51,18 @@ As a result:
 
 - Teams lose momentum
 
-This tool acts as an intelligent intake layer between people and systems.
+**_This tool acts as an intelligent intake layer between people and systems._**
 
 
-3. What the Tool Does (Functionally)
+## What the Tool Does (Functionally)
 
-Input
+#### Input
 
 - Free-form operational requests written by humans
 
-Processing (AI-Augmented)
+### Processing (AI-Augmented)
 
-The system analyzes each request and produces:
+#### The system analyzes each request and produces:
 
 - Category (e.g., ops issue, request, question)
 
@@ -78,7 +78,7 @@ The system analyzes each request and produces:
 
 - Explanation of reasoning
 
-Output
+#### Output
 
 - Structured JSON (machine-readable)
 
@@ -86,7 +86,7 @@ Output
 
 - Explainable decisions
 
-The output is designed to be:
+#### The output is designed to be:
 
 - Acted on immediately
 
