@@ -55,3 +55,23 @@
 - Multiple Issues
 
 - Time urgency
+
+## Example 6
+
+**"The deadline for the apps xml page fixes was two days ago, but I checked today and its not done, who's job was it? Leadership is breathing down my neck on this so someone tell me something!"**
+
+## Example 7
+
+**"I cant find the finished UI changes update in the directory did it get done? I was told it could be done by the end of yesterday. We also need those graphics for the quarter 3 project, who's working on that?"**
+
+## Example 8
+
+**"Not sure if this is an issue yet, but the night shift hasn't posted anyhting since Monday. No one's complained so far."**
+
+## Example 9
+
+**"Product says the release went out last night, but support is still seeing old behavior. Not sure which one's right."**
+
+## Example 10
+
+**"This has to be a permissions issue, can someone from IT just fix it?"**
