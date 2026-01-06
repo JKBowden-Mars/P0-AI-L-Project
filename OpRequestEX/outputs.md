@@ -92,3 +92,87 @@ Confidence: 0.55
 
 Explanation:
 The sender explicitly notes uncertainty and the absence of reported impact, suggesting this is an early warning signal rather than an active incident.
+
+## System Output — Example 2
+
+(Inbox flooded with urgent docs, unclear owner)
+
+Input:
+“I am not sure why, but my inbox was just flooded with urgent looking docs, I doubt they are for me but is anyone looking for these they might be urgent.”
+
+Category:
+Routing / Ownership
+
+Priority:
+P2
+
+Suggested Team:
+Operations
+
+Summary:
+A large number of documents labeled as urgent were delivered to the user’s inbox, but ownership and intended recipient are unclear.
+
+Recommended Action:
+Determine the intended owner or team for the documents and redirect them appropriately. Confirm whether any of the documents require immediate attention.
+
+Confidence:
+0.66
+
+Explanation:
+The message suggests perceived urgency but provides no deadline, impact, or confirmation that the documents are time-sensitive. Ownership ambiguity is the primary issue, with urgency requiring verification.
+
+## System Output — Example 9
+
+(Conflicting reports about a release)
+
+Input:
+“Product says the release went out last night, but support is still seeing old behavior. Not sure which one's right.”
+
+Category:
+Release / Verification
+
+Priority:
+P1
+
+Suggested Team:
+Engineering / Release Management
+
+Summary:
+There are conflicting reports regarding a recent release: product believes it was deployed, while support is observing behavior consistent with an older version.
+
+Recommended Action:
+Verify the release status and confirm which version is currently active. Communicate findings to both product and support teams.
+
+Confidence:
+0.71
+
+Explanation:
+The request presents contradictory information from two sources, indicating the need for verification before further action. While no explicit escalation is stated, the discrepancy suggests elevated urgency.
+
+## System Output — Example 10
+
+(Overconfident diagnosis: “this has to be permissions”)
+
+Input:
+“This has to be a permissions issue, can someone from IT just fix it?”
+
+Category:
+Issue Triage
+
+Priority:
+P2
+
+Suggested Team:
+IT / Systems Operations
+
+Summary:
+The user is reporting an issue they believe is caused by permissions and is requesting IT intervention, though no supporting details are provided.
+
+Recommended Action:
+Request additional context or verification to confirm whether the issue is related to permissions before taking corrective action.
+
+Confidence:
+0.60
+
+Explanation:
+The message asserts a cause without evidence. While permissions issues are plausible, the lack of details requires validation to avoid acting on an incorrect assumption.
